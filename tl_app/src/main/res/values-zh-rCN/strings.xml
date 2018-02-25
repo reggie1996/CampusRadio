@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">miniTL</string>
+    <string name="null_str"></string>
+    
+    <string name="action_exit">完全退出-Exit</string>
+    <string name="start_bluetooth">蓝牙手咪</string>
+    <string name="ble_ptt">BLE按钮</string>
+    <string name="change_passwd">更改密码</string>
+    <string name="change_nick">修改昵称</string>
+    <string name="set_ptt_type">PTT单次触发</string>
+    <string name="set_ble_ptt">BLE按钮</string>
+    <string name="set_audio">音频属性配置</string>
+    <string name="show_version">APP信息</string>
+    <string name="bind_phone">绑定手机</string>
+
+    <string name="show_speaker_level">放音之喇叭音量</string>
+    <string name="notify_sound_select">对讲提示音类型 ：</string>
+    <string name="normal_notify">标准音</string>
+    <string name="simple_notify">简化音</string>
+    <string name="none_notify">无提示</string>
+    
+    <string name="register">注册</string>
+	<string name="login">登录</string>
+	<string name="confirm">确定</string>
+    <string name="init_channel">正在初始化频道列表</string>
+    <string name="init_channel_end">当前频道总数：</string>
+    <string name="begin_dialogsession">你将对</string>
+	<string name="end_smssession">发出召唤短信</string>
+	<string name="end_dialogsession">发起单(组)呼</string>
+	<string name="user_nick">昵称：</string>
+	<string name="account">途聆号：</string>
+	<string name="invite">激活码：</string>
+	<string name="password">密码：</string>
+    <string name="password_new">新密码：</string>
+	<string name="pass_confirm">确认密码：</string>
+	<string name="nick_now">现昵称：</string>
+	<string name="nick_new">新昵称：</string>
+	<string name="phone_no">手机号：</string>
+	<string name="auth_code">验证码：</string>
+	
+	
+	<string name="channel_name_fragment">频道名（或部分）：</string>
+	<string name="new_channel_name">创建的频道名：</string>
+	<string name="entry_code_yes">[设置口令]</string>
+	<string name="entry_code_no">[无需口令]</string>
+	<string name="focus_ec_hint">口令</string>
+	<string name="modi_channel_name">更改频道名：</string>
+
+    <string name="tourling">途聆</string>
+    <string name="jzone">无锡捷中科技公司</string>
+	<string name="ok">OK</string>
+	<string name="visitor_intro">您将作为体验用户登录途聆</string>
+	<string name="visitor_nick">您的昵称：</string>
+	<string name="user_entry">注册帐户入口</string>
+	<string name="reset_pw">重置密码</string>
+
+    <string name="entry_channel">进频道</string>
+    <string name="sending_sms">发出召唤短信</string>
+    <string name="dialog">单呼</string>
+    <string name="dengdeng">&#160;... 等&#160;</string>
+    <string name="ren">&#160;人</string>
+    <string name="gong">&#160;共&#160;</string>
+    <string name="select_bluetooth">选择蓝牙手咪</string>
+    <string name="pair_hint">请打开手机蓝牙，并配对手咪。</string>
+    <string name="connect_bluetooth_failed1">无法与&#160;</string>
+    <string name="connect_bluetooth_failed2">&#160;进行通信。</string>
+    <string name="update_hint">有新一代的APP可以升级</string>
+
+    <string name="spk_volume_hint">放音之喇叭音量</string>
+    <string name="as_system_vol">随系统</string>
+    <string name="that_is">&#160;：</string>
+
+    <string name="tl_sms_hint">途聆的短消息</string>
+    <string name="tl_sms_hint1">途聆有&#160;</string>
+    <string name="tl_sms_hint2">&#160;个短消息</string>
+    <string name="comes_from">来自&#160;</string>
+    <string name="tl_new_sms">途聆新消息</string>
+
+	<string name="channel_create">创建频道</string>
+	<string name="channel_search">搜索/关注频道</string>
+	<string name="channel_delete">删除/去关注</string>
+	<string name="channel_modify">更改频道名</string>
+    <string name="channel_default">设置默认频道</string>
+
+    <string name="binderr_auth_code">验证码错误</string>
+    <string name="binderr_bound_exist">该帐户已经绑定手机</string>
+    <string name="binderr_inner">服务器内部故障</string>
+    <string name="binderr_no_phone">没有手机号</string>
+    <string name="binderr_no_account">找不到用户</string>
+    <string name="binderr_phoneNo">号码错误</string>
+    <string name="binderr_phone_used">该号码已经被使用</string>
+    <string name="binderr_sms_server">短信无法发送</string>
+    <string name="binderr_phone_unava">手机号码未登记</string>
+    <string name="binderr_network">网络超时</string>
+    <string name="binderr_unknown">未知错误</string>
+
+    <string name="binding_phone">绑定的手机号：</string>
+    <string name="input_auth_code">输入验证码：</string>
+    <string name="input_format_error">输入不合规范。</string>
+    <string name="member_select_hint">请同类选择</string>
+    <string name="member_sms">添加召唤</string>
+    <string name="member_dialog">添加呼叫</string>
+    <string name="offline_hint">用户离线</string>
+    <string name="exit_ui_hint">退出UI再来</string>
+    <string name="ch_create_seg">创建</string>
+    <string name="de_channel_seg">的频道</string>
+    <string name="no_channel_hint">没有自创频道</string>
+    <string name="success_hint">成功</string>
+    <string name="fail_hint">失败</string>
+    <string name="sms_seg">召唤&#160;</string>
+    <string name="deliver_seg">&#160;投递</string>
+    <string name="change_pass_success">成功修改密码。</string>
+    <string name="operate_failed">操作失败。</string>
+    <string name="rename_success">更改成功</string>
+    <string name="rename_failed">更改失败：</string>
+    <string name="create_success">创建成功</string>
+    <string name="create_failed">创频道失败：</string>
+    <string name="delete_success">删除成功</string>
+    <string name="delete_failed">删除频道失败：</string>
+    <string name="focuse_success">关注成功</string>
+    <string name="focuse_failed">关注频道失败：</string>
+    <string name="unfocuse_success">去关注成功</string>
+    <string name="unfocuse_failed">去关注失败：</string>
+    <string name="default_ch_set">默认频道设置为：</string>
+    <string name="no_entry_channel">无法进入频道</string>
+    <string name="getting_pub_channel">获取公共频道</string>
+    <string name="getting_channels">获取频道列表</string>
+    <string name="tourling_ch_hint">途聆频道</string>
+    <string name="tourling_ch_seg">途聆&#160;</string>
+    <string name="ch_hint_seg">&#160;频道</string>
+    <string name="cherr_toomuch">频道数目超限</string>
+    <string name="change_nick_succ">成功设置昵称:&#160;</string>
+    <string name="change_nick_fail">无法设置新昵称</string>
+    <string name="bind_phone_failed">绑定手机号码出错，原因：</string>
+    <string name="bind_phone_hint1">绑定号码：</string>
+    <string name="bind_phone_hint2">&#160;成功。</string>
+    <string name="failed_reason">出错啦，原因：</string>
+    <string name="reset_pass_success">重置密码成功。</string>
+    <string name="sending_auth_hint1">验证码已经发往&#160;</string>
+    <string name="sending_auth_hint2">&#160;号码。</string>
+
+    <string name="cherr_psss">密码错误</string>
+    <string name="cherr_unknown">未知原因</string>
+    <string name="need_account">需要途聆号</string>
+    <string name="error_phoneno">手机号错误</string>
+    <string name="need_passwd">需要密码</string>
+    <string name="input_phoneno">请填手机号</string>
+    <string name="phoneno_hint">手机号：</string>
+    <string name="user_hint">用户</string>
+    <string name="auth_code_error">验证码错误</string>
+    <string name="unidentiry_pass">密码不一致</string>
+    <string name="no_session">未进入频道</string>
+    <string name="no_history">没有找到历史记录</string>
+    <string name="today">今天&#160;</string>
+    <string name="back_exit_ui_hint">再按一次将退出UI</string>
+
+    <string name="err_timeout">操作超时</string>
+    <string name="err_account">不存在此用户</string>
+    <string name="err_userpass">用户名密码错误</string>
+    <string name="err_serverunava">服务器不可用</string>
+    <string name="err_network">网络故障</string>
+    <string name="err_nouser">非本人登录</string>
+    <string name="register_failed">注册用户失败</string>
+    <string name="callmeeting_head">会议发起人：</string>
+    <string name="sms_check">发验证短信</string>
+
+    <string name="visitor_welcome">您曾经登录过途聆</string>
+    <string name="visitor_nick_err">，昵称太短。</string>
+    <string name="luren">路人</string>
+    <string name="tg1">甲</string>
+    <string name="tg2">乙</string>
+    <string name="tg3">丙</string>
+    <string name="tg4">丁</string>
+    <string name="tg5">戊</string>
+    <string name="tg6">己</string>
+    <string name="tg7">庚</string>
+    <string name="tg8">辛</string>
+    <string name="tg9">壬</string>
+    <string name="tg0">癸</string>
+
+    <string name="text_shift_hint"> &lt;&#160;&lt;&#160;&lt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&gt;&#160;&gt;&#160;&gt;&#160;</string>
+    <string name="guanwang">www.tourling.cn</string>
+</resources>

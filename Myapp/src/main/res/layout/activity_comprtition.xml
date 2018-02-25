@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="380dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:src="@mipmap/competitionbackground" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#eeeeee"
+                android:layout_marginTop="350dp"/>
+
+            <TextView
+                android:text="更多选手..."
+                android:textColor="#3b8686"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/textView14"
+                android:gravity="bottom"
+                android:layout_marginTop="175dp"/>
+
+            <TextView
+                android:text="当前排名"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="50dp"
+                android:id="@+id/textView18" />
+        </FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#e5e5e5"
+            android:layout_marginTop="2dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#eeeeee"/>
+
+        <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#e5e5e5"/>
+
+        <com.brucetoo.gradienttabstrip.PagerSlidingTabStrip
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/strip_comepi"
+            />
+
+        <android.support.v4.view.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/pager_compi"
+            />
+
+
+</LinearLayout>
+

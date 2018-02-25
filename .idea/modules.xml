@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CampusRadio.iml" filepath="$PROJECT_DIR$/CampusRadio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GradientTabStrip-master/GradientTabStrip-master.iml" filepath="$PROJECT_DIR$/GradientTabStrip-master/GradientTabStrip-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IMKit/IMKit.iml" filepath="$PROJECT_DIR$/IMKit/IMKit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IMLib/IMLib.iml" filepath="$PROJECT_DIR$/IMLib/IMLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Myapp/Myapp.iml" filepath="$PROJECT_DIR$/Myapp/Myapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/constraintlayout_master/constraintlayout_master.iml" filepath="$PROJECT_DIR$/constraintlayout_master/constraintlayout_master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libfloatingactionbutton/libfloatingactionbutton.iml" filepath="$PROJECT_DIR$/libfloatingactionbutton/libfloatingactionbutton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libmaterialbanner/libmaterialbanner.iml" filepath="$PROJECT_DIR$/libmaterialbanner/libmaterialbanner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libqrcode/libqrcode.iml" filepath="$PROJECT_DIR$/libqrcode/libqrcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libslideup/libslideup.iml" filepath="$PROJECT_DIR$/libslideup/libslideup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/materialBanner/materialBanner.iml" filepath="$PROJECT_DIR$/materialBanner/materialBanner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tl_app/tl_app.iml" filepath="$PROJECT_DIR$/tl_app/tl_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tl_sdk/tl_sdk.iml" filepath="$PROJECT_DIR$/tl_sdk/tl_sdk.iml" />
+    </modules>
+  </component>
+</project>

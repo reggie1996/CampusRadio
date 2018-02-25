@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/mainone_cover1"
+            android:layout_margin="10dp"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_gravity="center"
+            android:gravity="center">
+            <TextView
+                android:text="电台名：炸鸡块电台"
+                android:textColor="#1f4e5f"
+                android:textSize="14dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_coursename"
+                android:paddingBottom="3dp"/>
+            <TextView
+                android:text="主播：北斋的大虾"
+                android:textColor="#1f4e5f"
+                android:textSize="13dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_hostName"
+                android:paddingBottom="3dp"/>
+            <TextView
+                android:text="时间：2017-7-12  18:30"
+                android:textSize="12dp"
+                android:paddingBottom="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_describe" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

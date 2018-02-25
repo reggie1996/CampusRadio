@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius = "10dp"
+        android:layout_margin="15dp">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content">
+
+
+
+                <RelativeLayout
+                    android:layout_width="150dp"
+                    android:layout_height="143dp">
+
+                    <ImageView
+                        android:id="@+id/iv_livecover"
+                        android:layout_width="142dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/mainone_cover1"
+                        android:layout_marginBottom="2dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                    <TextView
+                        android:text="电台名"
+                        android:textSize="16dp"
+                        android:textColor="#ffffff"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tv_name_liveroom"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:background="#99b3d0d0"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginBottom="3dp" />
+
+                </RelativeLayout>
+
+
+                <TextView
+                    android:text="主播名"
+                    android:textColor="#1f4e5f"
+                    android:textSize="12dp"
+                    android:paddingLeft="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_name_host" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="5dp"
+                    android:paddingBottom="5dp">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/mainone_like"
+                        android:id="@+id/imageView8"
+                        android:layout_weight="0.03" />
+
+                    <TextView
+                        android:text="123人"
+                        android:textSize="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:id="@+id/tv_like_liveroom"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                app:srcCompat="@drawable/ic_live"
+                android:id="@+id/iv_livestatus" />
+
+        </FrameLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

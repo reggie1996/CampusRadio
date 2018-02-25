@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="68dp"
+        android:src="@drawable/ic_shu1"
+        android:id="@+id/shu"/>
+
+    <com.example.a24073.campusradio.MyResource.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:paddingTop="6dp"
+        android:paddingLeft="20dp"
+        android:id="@+id/portrait"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/ic_launcher"
+        app:civ_border_width="0dp"
+        app:civ_border_color="#666666"
+        android:layout_marginBottom="6dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="15dp">
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/friend_name"
+            android:textSize="20sp"
+            android:layout_marginBottom="5dp"
+            android:textColor="#00645c"
+            android:typeface="sans"
+            />
+
+        <TextView
+            android:text="TextView"
+            android:textSize="12sp"
+            android:textColor="#666666"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/friend_id"
+            android:typeface="sans"/>
+    </LinearLayout>
+
+</LinearLayout>

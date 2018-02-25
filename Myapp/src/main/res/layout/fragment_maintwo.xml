@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_height="300dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_search_24dp"
+            android:layout_margin="10dp"
+            android:id="@+id/search"
+            android:layout_gravity="right"
+            android:background="@null"/>
+
+        <com.moxun.tagcloudlib.view.TagCloudView
+            android:layout_height="300dp"
+            android:layout_width="300dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:id="@+id/tagcloudview"
+            android:layout_margin="0dp"
+            app:autoScrollMode="uniform"
+            app:darkColor="#00645c"
+            app:lightColor="#a8dba8"
+            app:radiusPercent="0.6"
+            app:scrollSpeed="3" />
+
+
+    </FrameLayout>
+
+
+
+        <TextView
+            android:text="猜你喜欢"
+            android:textSize="14dp"
+            android:textColor="#1f4e5f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:id="@+id/textView16"
+            android:paddingTop="0dp"
+            android:paddingBottom="3dp"/>
+
+        <View
+            android:layout_width="300dp"
+            android:layout_height="0.8dp"
+            android:background="#d5dada"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+
+    <com.example.a24073.campusradio.utils.MyGridView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gv_liveroomsuggest"
+        android:numColumns="2"
+        android:gravity="center_vertical|center_horizontal"/>
+
+</LinearLayout>

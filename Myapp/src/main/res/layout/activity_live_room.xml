@@ -1,0 +1,153 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffffff"
+    tools:context="com.example.a24073.campusradio.controller.activity.LiveRoomActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_weight="0.10">
+
+            <com.freegeek.android.materialbanner.MaterialBanner
+                android:id="@+id/material_banner_liveroom"
+                android:layout_width="match_parent"
+                app:match="true"
+                android:layout_height="250dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true">
+            </com.freegeek.android.materialbanner.MaterialBanner>
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_moment_back"
+                android:padding="10dp"
+                android:layout_weight="0.10"
+                android:onClick="liveroom_back"/>
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_liveroom_larger"
+                android:layout_gravity="bottom|right"
+                android:padding="10dp"
+                android:onClick="fullScreen"/>
+        </FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#e5e5e5"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:weightSum="1">
+
+            <com.cunoraz.gifview.library.GifView
+                android:id="@+id/gif1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:gif="@mipmap/gif1"/>
+
+            <TextView
+                android:text="正在直播中..."
+                android:layout_width="109dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:id="@+id/tv_isliving"
+                android:layout_weight="0.53" />
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="17dp"
+                android:src="@drawable/ic_listener"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:text="112人"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#00645c"
+                android:layout_marginLeft="3dp"
+                android:id="@+id/tv_listenernum"/>
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="20dp"
+                android:background="#e5e5e5"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"/>
+
+            <ImageView
+                android:layout_width="19dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mainone_like"
+                android:layout_gravity="right"/>
+
+            <TextView
+                android:text="关注"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#00645c"/>
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="20dp"
+                android:background="#e5e5e5"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"/>
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_liveshare"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:text="分享"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#00645c"
+                android:onClick="liveshare"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#e5e5e5"/>
+
+        <com.brucetoo.gradienttabstrip.PagerSlidingTabStrip
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/strip_liveroom"
+            />
+
+        <android.support.v4.view.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/pager_liveroom"
+            />
+
+    </LinearLayout>
+
+
+</FrameLayout>

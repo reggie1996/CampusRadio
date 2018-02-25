@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:weightSum="1">
+        <!--android:background="#00645c"-->
+
+        <TextView
+            android:text="取消"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView12"
+            android:textSize="16dp"
+            android:onClick="back"
+            android:textAllCaps="false" />
+
+        <Space
+            android:layout_width="35dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.41" />
+
+        <TextView
+            android:id="@+id/title_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:textColor="#00645c"
+            android:textSize="20dp"
+            android:text="写动态"/>
+
+        <Space
+            android:layout_width="35dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.41" />
+
+        <TextView
+            android:text="发表"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:id="@+id/press"
+            android:onClick="press"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:hint="说点什么吧..."
+            android:ems="50"
+            android:id="@+id/editText"
+            android:gravity="top"
+            android:textCursorDrawable="@null"
+            android:background="@null"
+            android:textColor="#666666"
+            android:padding="8dp"/>
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/iv_voicemoment"
+            android:visibility="invisible">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00ffffff"
+                android:src="@drawable/voiceback"
+                android:visibility="visible"
+                android:layout_gravity="top|left"/>
+
+            <ImageView
+                android:layout_width="79dp"
+                android:layout_height="26dp"
+                android:src="@drawable/voicein"
+                android:layout_marginTop="2dp"
+                />
+
+            <TextView
+                android:text="3&quot;"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView17" />
+
+        </FrameLayout>
+
+        <ImageButton
+            android:background="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_voicemoment"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="10dp"
+            android:onClick="startrecode"/>
+    </FrameLayout>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="5dp"
+        android:background="#00645c"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_plus"
+                android:id="@+id/imageView12"
+                android:padding="5dp"
+                android:onClick="selectImage"/>
+
+            <TextView
+                android:text="点击添加图片"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/textView22"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="251dp"
+            android:layout_height="116dp"
+            android:id="@+id/image_moment"
+            android:layout_weight="0.15"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/momentSlideView">
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/iv_call_selecter"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginTop="5dp"
+                android:id="@+id/voicebottom"/>
+
+            <com.cunoraz.gifview.library.GifView
+                android:id="@+id/gifvoicebottom"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:gif="@mipmap/gifbottom"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginTop="5dp"
+                android:visibility="invisible"/>
+        </FrameLayout>
+    </FrameLayout>
+
+
+</LinearLayout>

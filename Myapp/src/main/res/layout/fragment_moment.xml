@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbarSize="0dp"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    >
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="680dp"
+        android:src="@mipmap/momentbackground" />
+
+    <com.melnykov.fab.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_write_moment"
+        app:fab_colorNormal="#00645c"
+        app:fab_colorPressed="#00645c"
+        app:fab_colorRipple="#00645c" />
+
+    <com.melnykov.fab.ObservableScrollView
+        android:id="@+id/sv_moment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#40E2E8E8">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="222dp">
+
+                <com.freegeek.android.materialbanner.MaterialBanner
+                    android:id="@+id/material_banner"
+                    android:layout_width="match_parent"
+                    app:match="true"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true">
+                </com.freegeek.android.materialbanner.MaterialBanner>
+
+                <include layout="@layout/item_moment_utils"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+            </RelativeLayout>
+
+            <include layout="@layout/item_moment_topic"/>
+
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_laba"
+                    android:id="@+id/imageView2"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:text=" 好友动态"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:textColor="#ffffff"
+                    android:id="@+id/textView"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+
+            <include layout="@layout/layout_voice"
+                android:id="@+id/item_voicemoment"
+                android:visibility="gone"/>
+
+            <include layout="@layout/samplemoment1_foldingcell"/>
+
+
+            <ListView
+                android:id="@+id/moment_local"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@null"/>
+
+            <include layout="@layout/layout_more"
+                android:id="@+id/more_local_moment"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_laba"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:text=" 校园热门"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:textColor="#ffffff"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/moment_global"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@null"/>
+
+        </LinearLayout>
+    </com.melnykov.fab.ObservableScrollView>
+
+</FrameLayout>

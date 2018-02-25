@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:fabSize="mini"
+        android:src="@drawable/ic_myliveroom"
+        android:id="@+id/fab_myliveroom"
+        android:background="#00645c"
+        android:layout_gravity="right|bottom"
+        android:layout_margin="10dp"
+        android:backgroundTint="#00645c"
+        app:borderWidth="0dp"/>
+
+    <include layout="@layout/popupmsg"
+        android:id="@+id/popupslide"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0e1f4e5f">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="212dp"
+                android:background="@drawable/moment_background">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:id="@+id/mainone_localschool">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="60dp"
+                        android:src ="@drawable/ic_main0ne_button"
+                        android:id="@+id/imageButton"
+                        android:background="#00ffffff"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true" />
+
+                    <TextView
+                        android:text="耶鲁大学校园电台"
+                        android:textColor="#ffffff"
+                        android:textSize="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView6"
+                        android:layout_above="@+id/imageButton"
+                        android:layout_centerHorizontal="true" />
+
+                    <TextView
+                        android:text="本校电台"
+                        android:textColor="#ffffff"
+                        android:textSize="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView13"
+                        android:layout_below="@+id/textView6"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="60dp" />
+
+
+                </RelativeLayout>
+
+
+            </FrameLayout>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rankinglist">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp">
+
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:src="@drawable/ic_mainone_ranking"
+                        android:id="@+id/imageView10"
+                        android:layout_weight="0.08"
+                        android:padding="2dp"/>
+
+                    <TextView
+                        android:text="收听最热电台"
+                        android:textColor="#1f4e5f"
+                        android:textSize="18dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center_vertical" />
+
+                    <TextView
+                        android:text="最热排行榜点击进入"
+                        android:textColor="#999999"
+                        android:textSize="15dp"
+                        android:paddingLeft="8dp"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView15"
+                        android:layout_weight="0.93" />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_next"
+                        android:id="@+id/imageView11"
+                        android:layout_weight="0.08"
+                        android:layout_gravity="center_vertical|center_horizontal"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:text="校园电台"
+                android:textSize="14dp"
+                android:textColor="#1f4e5f"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:id="@+id/textView16"
+                android:paddingTop="10dp"
+                android:paddingBottom="3dp"/>
+            <View
+                android:layout_width="300dp"
+                android:layout_height="0.8dp"
+                android:background="#d5dada"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginBottom="5dp"/>
+
+            <com.example.a24073.campusradio.utils.MyGridView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gv_schoolliveroom"
+                android:numColumns="2"
+                android:gravity="center_vertical|center_horizontal"/>
+
+
+
+            <TextView
+                android:text="更多>>>"
+                android:textSize="13dp"
+                android:textColor="#1f4e5f"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:paddingRight="30dp"
+                android:paddingTop="5dp"
+                android:id="@+id/more1"/>
+
+            <TextView
+                android:text="私人电台"
+                android:textSize="14dp"
+                android:textColor="#1f4e5f"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:paddingTop="10dp"
+                android:paddingBottom="3dp"/>
+            <View
+                android:layout_width="300dp"
+                android:layout_height="0.8dp"
+                android:background="#d5dada"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginBottom="5dp"/>
+
+
+            <com.example.a24073.campusradio.utils.MyGridView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gv_hotliveroom"
+                android:numColumns="2"
+                android:gravity="center_vertical|center_horizontal"/>
+
+
+            <TextView
+                android:text="更多>>>"
+                android:textSize="13dp"
+                android:textColor="#1f4e5f"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:paddingRight="30dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="30dp"
+                android:id="@+id/more2"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

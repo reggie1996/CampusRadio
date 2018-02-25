@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.example.a24073.campusradio.controller.fragment.LiveRoomFragmentOne">
+
+    <ListView
+        android:id="@+id/lv_liveroom_conversation"
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        android:divider="@null"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll" />
+
+    <include layout="@layout/layout_liveroom_footer"/>
+</LinearLayout>

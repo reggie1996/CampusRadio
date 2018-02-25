@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.arjunsn.constraintlayoutdemo.MainActivity"
+    >
+  <Button
+      android:id="@+id/profile_page"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:text="Profile View"
+      />
+  <Button
+      android:id="@+id/profile_page_with_scroll"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:text="Profile Scroll View"
+      app:layout_constraintTop_toBottomOf="@+id/profile_page"
+      />
+  <Button
+      android:id="@+id/feed_page"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:text="Feed view demo"
+      app:layout_constraintTop_toBottomOf="@+id/profile_page_with_scroll"
+      />
+</android.support.constraint.ConstraintLayout>

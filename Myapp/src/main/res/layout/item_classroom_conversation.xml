@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.example.a24073.campusradio.MyResource.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:paddingTop="6dp"
+        android:paddingLeft="20dp"
+        android:id="@+id/conversation_portrait"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/ic_launcher"
+        app:civ_border_width="0dp"
+        app:civ_border_color="#666666"
+        android:layout_marginBottom="6dp" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <com.github.library.bubbleview.BubbleTextView
+            android:id="@+id/conversation_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="                "
+            android:padding="10dp"
+            android:textColor="@android:color/white"
+            app:arrowWidth="8dp"
+            app:angle="8dp"
+            app:arrowHeight="10dp"
+            app:arrowPosition="14dp"
+            app:arrowLocation="left"
+            app:arrowCenter="true"
+            app:bubbleColor="#ffffff"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"/>
+
+        <ImageView
+            android:layout_width="52dp"
+            android:layout_height="20dp"
+            android:src="@drawable/ic_voice"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="10dp"/>
+    </FrameLayout>
+
+    <TextView
+        android:text="time"
+        android:id="@+id/classtime"
+        android:textColor="#8cafbc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="7dp"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

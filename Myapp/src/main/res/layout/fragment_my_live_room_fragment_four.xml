@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:switch="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.example.a24073.campusradio.controller.fragment.MyLiveRoomFragmentFour">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <FrameLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:text="尚未开启直播互动"
+            android:id="@+id/connectstatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#00645c"/>
+
+        <com.fynn.switcher.Switch
+            android:id="@+id/openconnet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            switch:checked="false"
+            switch:duration="250"
+            switch:spotOffColor="#e0e0e0"
+            switch:switchOffColor="#ffffff"
+            switch:switchOffStrokeColor="#000000"
+            switch:spotPadding="2dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="right"/>
+    </FrameLayout>
+
+
+    <TextView
+        android:text="当前无人发言"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/tv_someonespk" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/nowave"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/wave1"
+            android:layout_gravity="center"/>
+
+        <com.cunoraz.gifview.library.GifView
+            android:id="@+id/gif1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:visibility="invisible"
+            app:gif="@mipmap/gifwave1"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/iv_call_selecter"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="30dp"
+        android:id="@+id/button"/>
+
+</LinearLayout>

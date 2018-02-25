@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_me_order"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a24073.campusradio.controller.activity.MeOrder2Activity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:background="#40E2E8E8">
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="23dp"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:weightSum="1">
+            <!--android:background="#00645c"-->
+
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_moment_back"
+                android:id="@+id/imageView13"
+                android:layout_weight="0.01"
+                android:onClick="moment_back"/>
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.54" />
+
+            <TextView
+                android:id="@+id/title_in"
+                android:layout_width="141dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:textColor="#00645c"
+                android:textSize="20dp"
+                android:text="直播预约"
+                android:layout_weight="0.38" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#e5e5e5"/>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="1">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="#e5e5e5"/>
+            </LinearLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"></FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"></FrameLayout>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#ffffff">
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:src="@drawable/mainone_cover1"
+                    android:layout_margin="10dp"/>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+                    <TextView
+                        android:text="电台名：炸鸡块电台"
+                        android:textColor="#1f4e5f"
+                        android:textSize="14dp"
+                        android:layout_width="275dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tv_coursename"
+                        android:paddingBottom="3dp"/>
+                    <TextView
+                        android:text="主播：北斋的大虾"
+                        android:textColor="#1f4e5f"
+                        android:textSize="13dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="3dp"/>
+                    <TextView
+                        android:text="时间：2017-7-12  18:30"
+                        android:textSize="12dp"
+                        android:paddingBottom="4dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <TextView
+                    android:text="删除"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:background="#d81e06"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#ffffff">
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:src="@drawable/mainone_cover5"
+                    android:layout_margin="10dp"/>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+                    <TextView
+                        android:text="电台名：深夜食堂"
+                        android:textColor="#1f4e5f"
+                        android:textSize="14dp"
+                        android:layout_width="275dp"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="3dp"/>
+                    <TextView
+                        android:text="主播：Yummy酱"
+                        android:textColor="#1f4e5f"
+                        android:textSize="13dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tv_hostName"
+                        android:paddingBottom="3dp"/>
+                    <TextView
+                        android:text="时间：2017-7-15  20:30"
+                        android:textSize="12dp"
+                        android:paddingBottom="4dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tv_describe" />
+                </LinearLayout>
+                <TextView
+                    android:text="删除"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:background="#d81e06"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#ffffff">
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:src="@drawable/mainone_cover4"
+                    android:layout_margin="10dp"/>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+                    <TextView
+                        android:text="电台名：千的日常播报"
+                        android:textColor="#1f4e5f"
+                        android:textSize="14dp"
+                        android:layout_width="275dp"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="3dp"/>
+                    <TextView
+                        android:text="主播：长岛没有秋刀鱼"
+                        android:textColor="#1f4e5f"
+                        android:textSize="13dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="3dp"/>
+                    <TextView
+                        android:text="时间：2017-7-18  18:30"
+                        android:textSize="12dp"
+                        android:paddingBottom="4dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <TextView
+                    android:text="删除"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:background="#d81e06"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

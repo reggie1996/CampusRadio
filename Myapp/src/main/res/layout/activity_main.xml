@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="false"
+
+    tools:context="com.example.a24073.campusradio.controller.activity.MainActivity">
+
+    <!--FrameLayout-->
+    <FrameLayout
+        android:id="@+id/fl_content"
+        android:layout_weight="1.18"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+    <View
+        android:id="@+id/divider"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:shape = "rectangle"
+        android:background="#dbdbdb"
+        />
+
+    <!--底部的RadioGroup-->
+    <RadioGroup
+        android:id="@+id/rg_bottom_tag"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="3dp">
+
+        <RadioButton
+            android:id="@+id/rb_main"
+            android:text="广播"
+            android:drawableTop="@drawable/rb_main_frame_drawable_selector"
+            style="@style/botttom_tag_style"
+            android:duplicateParentState="false"
+            android:button="@null"/>
+
+        <RadioButton
+            android:id="@+id/rb_radio"
+            android:text="好友"
+            android:drawableTop="@drawable/rb_radio_drawable_selector"
+            style="@style/botttom_tag_style"
+            android:button="@null"
+            />
+
+        <RadioButton
+            android:id="@+id/rb_moment"
+            android:text="校园"
+            android:drawableTop="@drawable/rb_moment_drawable_selector"
+            style="@style/botttom_tag_style"
+            android:button="@null"
+            />
+
+        <RadioButton
+            android:id="@+id/rb_me"
+            android:text="我"
+            android:drawableTop="@drawable/rb_me_frame_drawable_selector"
+            style="@style/botttom_tag_style"
+            android:button="@null"
+            />
+    </RadioGroup>
+</LinearLayout>

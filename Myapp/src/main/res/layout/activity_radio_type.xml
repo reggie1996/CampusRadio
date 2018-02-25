@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"/>
+
+    <FrameLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:gravity="center">
+        <!--android:background="#00645c"-->
+
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_moment_back"
+            android:id="@+id/imageView13"
+            android:layout_gravity="left|center_vertical"
+            android:onClick="type_back"
+            android:paddingLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/title_radio_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:textColor="#00645c"
+            android:textSize="20dp"
+            android:text="类型" />
+
+    </FrameLayout>
+
+    <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#e5e5e5"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.example.a24073.campusradio.utils.MyGridView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/gv_liveroomtype"
+            android:numColumns="2"
+            android:gravity="center_vertical|center_horizontal"/>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a24073.campusradio.controller.fragment.MyLiveRoomFragmentTwo">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="227dp"
+        android:padding="20dp"
+        android:hint="在此编辑您的直播介绍"
+        android:textColor="#00645c"
+        android:textSize="14dp"
+        android:gravity="top"
+        android:id="@+id/myword2"
+        android:background="@null"/>
+
+    <TextView
+        android:text="编辑"
+        android:id="@+id/mywords"
+        android:textColor="#ffffff"
+        android:textSize="16dp"
+        android:background="#00645c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:layout_marginTop="60dp"/>
+
+
+</FrameLayout>

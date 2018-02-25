@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="210dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:src="@mipmap/classroom"
+                android:id="@+id/enterclassroom"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#e5e5e5"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="#d5dada"
+            android:layout_gravity="center_vertical|center_horizontal"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#59ffffff">
+
+            <View
+                android:layout_width="8dp"
+                android:layout_height="35dp"
+                android:background="#1f4e5f"
+                android:layout_weight="0.20" />
+
+            <TextView
+                android:text="通知"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:textColor="#1f4e5f"
+                android:textSize="17dp"
+                android:layout_weight="1"
+                android:paddingLeft="10dp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="#d5dada"
+            android:layout_gravity="center_vertical|center_horizontal"/>
+
+        <LinearLayout
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="关于线性代数答疑"
+                android:textColor="#1f4e5f"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"/>
+            <TextView
+                android:text="今天晚上8点，线性代数老师会在青芒校园FM开直播间，进行作业的答疑，感兴趣的同学可以预约老师的直播。"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="6dp"/>
+            <TextView
+                android:text="2017年7月20日"
+                android:textSize="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="10dp"
+                android:paddingBottom="3dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.3dp"
+                android:background="#d5dada"
+                android:layout_gravity="center_vertical|center_horizontal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="关于本学期第三次班会"
+                android:textColor="#1f4e5f"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"/>
+            <TextView
+                android:text="今天晚上8点，我们将展开本学期的第三次班会，请同学们准时到达。"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="6dp"/>
+            <TextView
+                android:text="2017年7月20日"
+                android:textSize="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="10dp"
+                android:paddingBottom="3dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.3dp"
+                android:background="#d5dada"
+                android:layout_gravity="center_vertical|center_horizontal"/>
+        </LinearLayout>
+
+        <TextView
+            android:text="更多"
+            android:textSize="17dp"
+            android:textColor="#1f4e5f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="#d5dada"
+            android:layout_gravity="center_vertical|center_horizontal"/>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#e5e5e5"/>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="#d5dada"
+            android:layout_gravity="center_vertical|center_horizontal"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#59ffffff">
+
+            <View
+                android:layout_width="8dp"
+                android:layout_height="35dp"
+                android:background="#1f4e5f"
+                android:layout_weight="0.20" />
+
+            <TextView
+                android:text="作业"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:textColor="#1f4e5f"
+                android:textSize="17dp"
+                android:layout_weight="1"
+                android:paddingLeft="10dp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="#d5dada"
+            android:layout_gravity="center_vertical|center_horizontal"/>
+
+
+        <LinearLayout
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="高等数学"
+                android:textColor="#1f4e5f"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"/>
+            <TextView
+                android:text="完成课后作业第1，2，7—8，17，20题，下星期五之前上交，请同学们及时完成"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="6dp"/>
+            <TextView
+                android:text="2017年7月20日"
+                android:textSize="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="10dp"
+                android:paddingBottom="3dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.3dp"
+                android:background="#d5dada"
+                android:layout_gravity="center_vertical|center_horizontal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="数据结构与算法"
+                android:textColor="#1f4e5f"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"/>
+            <TextView
+                android:text="预习下一章，并完成相应例题，将作业代码上传至老师邮箱，截止时间：周二晚上8点"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="6dp"/>
+            <TextView
+                android:text="2017年7月20日"
+                android:textSize="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingRight="10dp"
+                android:paddingBottom="3dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.3dp"
+                android:background="#d5dada"
+                android:layout_gravity="center_vertical|center_horizontal"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:text="更多"
+            android:textSize="17dp"
+            android:textColor="#1f4e5f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="#d5dada"
+            android:layout_gravity="center_vertical|center_horizontal"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#e5e5e5"/>
+
+    </LinearLayout>
+</ScrollView>

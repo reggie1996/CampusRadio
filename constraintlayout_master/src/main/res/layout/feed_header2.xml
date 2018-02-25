@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.example.a24073.campusradio.MyResource.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_picture2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="centerCrop"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/profile_name2"
+        app:layout_constraintBottom_toBottomOf="parent" />
+    <TextView
+        android:id="@+id/profile_name2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Tom and Jerry"
+        app:layout_constraintLeft_toRightOf="@+id/profile_picture2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/timestamp2"
+        app:layout_constraintVertical_chainStyle="packed"
+        android:textColor="#1f4e5f"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/timestamp2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="May 24 2017 5:45 PM"
+        android:textColor="#999999"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toLeftOf="@+id/profile_name2"
+        app:layout_constraintTop_toBottomOf="@+id/profile_name2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+</android.support.constraint.ConstraintLayout>

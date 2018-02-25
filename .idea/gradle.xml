@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/GradientTabStrip-master" />
+            <option value="$PROJECT_DIR$/IMKit" />
+            <option value="$PROJECT_DIR$/IMLib" />
+            <option value="$PROJECT_DIR$/Myapp" />
+            <option value="$PROJECT_DIR$/constraintlayout_master" />
+            <option value="$PROJECT_DIR$/libfloatingactionbutton" />
+            <option value="$PROJECT_DIR$/libmaterialbanner" />
+            <option value="$PROJECT_DIR$/libqrcode" />
+            <option value="$PROJECT_DIR$/libslideup" />
+            <option value="$PROJECT_DIR$/materialBanner" />
+            <option value="$PROJECT_DIR$/tl_app" />
+            <option value="$PROJECT_DIR$/tl_sdk" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

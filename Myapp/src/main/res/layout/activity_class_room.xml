@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context="com.example.a24073.campusradio.controller.activity.ClassRoomActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="224dp"
+        android:src="@mipmap/classroomcover"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="#e5e5e5"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="68dp"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:paddingLeft="5dp"
+            android:layout_gravity="center"
+            android:onClick="sendvoice2">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_classmate"
+                android:layout_weight="0.52"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:text="班级成员"
+                android:textSize="11dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#1f4e5f"/>
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="25dp"
+            android:background="#e5e5e5"
+            android:layout_gravity="center"/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <com.example.a24073.campusradio.MyResource.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:paddingTop="3dp"
+                    android:paddingLeft="15dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/ic_headportrait1"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#666666"
+                    android:layout_marginBottom="3dp" />
+
+                <com.example.a24073.campusradio.MyResource.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:paddingTop="3dp"
+                    android:paddingLeft="15dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/mainone_cover1"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#666666"
+                    android:layout_marginBottom="3dp" />
+
+                <com.example.a24073.campusradio.MyResource.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:paddingTop="3dp"
+                    android:paddingLeft="15dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/mainone_cover2"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#666666"
+                    android:layout_marginBottom="3dp" />
+
+                <com.example.a24073.campusradio.MyResource.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:paddingTop="3dp"
+                    android:paddingLeft="15dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/ic_headportrait4"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#666666"
+                    android:layout_marginBottom="3dp" />
+
+                <com.example.a24073.campusradio.MyResource.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:paddingTop="3dp"
+                    android:paddingLeft="15dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/ic_headportrait5"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#666666"
+                    android:layout_marginBottom="3dp" />
+
+                <com.example.a24073.campusradio.MyResource.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:paddingTop="3dp"
+                    android:paddingLeft="15dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/ic_headportrait6"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#666666"
+                    android:layout_marginBottom="3dp" />
+
+                <com.example.a24073.campusradio.MyResource.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:paddingTop="3dp"
+                    android:paddingLeft="15dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/ic_headportrait7"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#666666"
+                    android:layout_marginBottom="3dp" />
+
+                <com.example.a24073.campusradio.MyResource.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:paddingTop="3dp"
+                    android:paddingLeft="15dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/ic_headportrait2"
+                    app:civ_border_width="0dp"
+                    app:civ_border_color="#666666"
+                    android:layout_marginBottom="3dp" />
+
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:paddingLeft="10dp"
+                    android:src="@drawable/ic_moreclassmate"
+                    android:layout_gravity="center"/>
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+
+    </LinearLayout>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="#e5e5e5"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="sendvoice">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="360dp"
+            android:background="#eeeeee">
+
+            <TextView
+                android:text="当前无人发言"
+                android:id="@+id/whoisspeaking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <include layout="@layout/layout_classconverlist"/>
+
+                    <com.example.a24073.campusradio.utils.MyListView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/lv_classroomconversation"
+                        android:divider="@null"
+                        android:stackFromBottom="true"
+                        android:transcriptMode="alwaysScroll"/>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="64.1dp"
+            android:src="@mipmap/classbackground2"
+            android:layout_gravity="bottom"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/slideView">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="256dp"
+                android:src="@mipmap/classbackground"
+                android:layout_gravity="bottom"/>
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/iv_call_selecter"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginTop="85dp"
+                android:id="@+id/voicebottom"/>
+
+            <com.cunoraz.gifview.library.GifView
+                android:id="@+id/gifvoicebottom"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:gif="@mipmap/gifbottom"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginTop="85dp"
+                android:visibility="invisible"/>
+
+
+        </FrameLayout>
+
+
+    </FrameLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_qrcode"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a24073.campusradio.controller.activity.QRCodeActivity"
+    android:background="#ffffff">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="640dp"
+        android:src="@mipmap/qrcodebackground"/>
+
+    <ImageView
+        android:layout_width="269dp"
+        android:layout_height="287dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:id="@+id/iv_qrcode"
+        android:layout_gravity="center"
+        android:background="@null"
+        android:paddingBottom="50dp"
+        />
+</FrameLayout>

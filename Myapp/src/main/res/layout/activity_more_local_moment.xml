@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/moment_background"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:background="#40E2E8E8">
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="23dp"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:weightSum="1">
+            <!--android:background="#00645c"-->
+
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_moment_back"
+                android:id="@+id/imageView13"
+                android:layout_weight="0.01"
+                android:onClick="moment_back"/>
+
+            <View
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.54" />
+
+            <TextView
+                android:id="@+id/title_in"
+                android:layout_width="141dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:textColor="#00645c"
+                android:textSize="20dp"
+                android:text="本校热门"
+                android:layout_weight="0.38" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#e5e5e5"/>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/lv_more_local_moment"
+            android:divider="@null"/>
+
+    </LinearLayout>
+
+
+
+</FrameLayout>
